@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71bd1b92-36c8-4e55-b8ad-e2ee510c3a92" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/absolute.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo-gallery.html" afterPath="$PROJECT_DIR$/photo-gallery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car.html" afterPath="$PROJECT_DIR$/car.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,7 +53,7 @@
       <file leaf-file-name="absolute.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/absolute.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="420">
               <caret line="28" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="7" />
               <folding />
             </state>
@@ -66,8 +63,8 @@
       <file leaf-file-name="car.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/car.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="145" column="14" lean-forward="false" selection-start-line="145" selection-start-column="14" selection-end-line="145" selection-end-column="14" />
+            <state relative-caret-position="435">
+              <caret line="131" column="22" lean-forward="false" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -254,12 +251,12 @@
       <workItem from="1490450565546" duration="52000" />
       <workItem from="1490491879134" duration="136000" />
       <workItem from="1493651564714" duration="8190000" />
-      <workItem from="1493730444490" duration="12053000" />
+      <workItem from="1493730444490" duration="12882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20431000" />
+    <option name="totallyTimeSpent" value="21260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,7 +358,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/absolute.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="420">
           <caret line="28" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="7" />
           <folding />
         </state>
@@ -369,8 +366,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/car.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="145" column="14" lean-forward="false" selection-start-line="145" selection-start-column="14" selection-end-line="145" selection-end-column="14" />
+        <state relative-caret-position="435">
+          <caret line="131" column="22" lean-forward="false" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
           <folding />
         </state>
       </provider>
