@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css" media="screen">
+        body{
+            height: 100vh;   <!-- -->
+            position: relative;
+            margin: 0px;
+        }
+
+        .circle{
+            position: absolute;
+            top: 200px;
+            left: 200px;
+            border-radius: 50%;
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            z-index: 3;
+        }
+
+        .small-circle{
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: black;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+        }
+
+        .circle.right{
+            top: 200px;
+            left: 400px;
+        }
+
+        .rect{
+            width: 300px;
+            background-color: blue;
+            position: absolute;
+            top: 25px;
+            left: 190px;
+            height: 200px;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="circle">
+        <div class="small-circle">
+
+        </div>
+    </div>
+
+    <div class="circle right">
+        <div class="small-circle">
+
+        </div>
+    </div>
+
+    <div class="rect">
+
+    </div>
+
+</body>
+</html>
