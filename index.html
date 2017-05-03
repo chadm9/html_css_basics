@@ -1,47 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- meta lets search engines and browsers info about your page -->
     <meta charset="UTF-8">
-    <title>Title</title>
-    <!-- head contains stuff user should not see: links, meta, etc...-->
+    <title>Google Clone</title>
+    <style type="text/css" media="screen">
+
+
+
+        #google-wrapper{
+            position: relative;
+            height: 100vh;
+        }
+
+        #header{
+            text-align: right;
+            font-family: Arial;
+            font-size: small;
+            color: #3F3F3F;
+        }
+
+        .menu-item{
+            display: inline-block;
+        }
+
+        #body{
+            text-align: center;
+            margin-top: 18%;
+        }
+
+        #body img{
+            max-width: 100%;
+        }
+
+        #footer{
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+        }
+
+        .button{
+            display: inline-block;
+        }
+
+    </style>
 </head>
 <body>
-<!-- where content of web page goes -->
-Hello, world.
-    <strong> This is a semantic tag</strong>
-    <em>This is for italics</em>
+<!-- overall wrapper for page  everything will be inside-->
+    <div id="google-wrapper">
 
-    <div class="a-div" id="a-div">
-        The div I'm inside of is invisible!
+        <div id="header">
+            <div class="menu-item">Gmail</div>
+            <div class="menu-item">Images</div>
+            <div class="menu-item">Menu Item</div>
+            <div class="menu-item">Menu Item</div>
+
+            header
+        </div>
+
+
+        <div id="body">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            <div class="search-bar">
+                <input type="text" />
+            </div>
+
+            <div class="button-holder">
+                <div class="button">
+                    Button 1
+                </div>
+                <div class="button">
+                    Button 2
+                </div>
+            </div>
+        </div>
+
+
+        <div id="footer">
+            footer
+        </div>
+
     </div>
-    <p>I'm a paragraph</p>
-    <sup>superscript</sup>
 
-    <span>The span I'm in is invisible</span>
-    <ul>
-        <li><a href="#my-anchor">Merilee</a></li>
-        <li>Shane</li>
-        <li>Chris</li>
-    </ul>
-    
-    <ol>
-        <li>Merilee</li>
-        <li><a href="tel:17069929562">Shane</a></li>
-        <li><a href="photo-gallery.html">Chris</a></li>
-        <li><a href="mailto:chadm_@yahoo.com">Staff</a></li>
-        <ol>
-            <li><a href="http://www.espn.com">one</a></li>
-            <li>two</li>
-        </ol>
-    </ol>
-
-    <img src="/Users/mephisto/PycharmProjects/Minion/images/banana.png">
-    <hr />
-    <sub>subscript</sub>
-    <footer>footer
-    </footer>
-    <blockquote>This sentence isn't particularly worth a blockquote.
-    </blockquote>
 </body>
 </html>

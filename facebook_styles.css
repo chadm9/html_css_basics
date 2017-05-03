@@ -1,0 +1,157 @@
+#facebook-wrapper{
+    /* Main page styles here */
+}
+
+#header{
+    /* Facebook blue... */
+    background-color: #3B5998;
+    height: 30px;
+}
+#header-friends, #header-notifications, #header-circle{
+    float: left;
+    margin-left: 5px;
+}
+
+#header-friends{
+    background-image: url("https://www.facebook.com/rsrc.php/v3/yU/r/ujRgtpgUFf7.png");
+    height: 30px;
+    width: 24px;
+    background-position: 0px -36px;
+}
+
+#header-notifications{
+    background-image: url("https://www.facebook.com/rsrc.php/v3/yU/r/ujRgtpgUFf7.png");
+    height: 30px;
+    width: 24px;
+    background-position: 0px -236px;
+}
+
+#header-circle{
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+
+#header-inner{
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#fb-logo,#fb-search{
+    float: left;
+    margin-left: 10px;
+}
+
+#fb-logo{
+    height: 30px;
+    width: 24px;
+    background-image: url('https://www.facebook.com/rsrc.php/v3/yu/r/UnZEsNz1oHl.png');
+    background-position: 0px -14px;
+    margin-right: 10px;
+}
+
+#fb-search input{
+    width: 350px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+
+#header-pic{
+    margin-top: 2px;
+    float: left;
+    width: 25px;
+    height: 25px;
+    background-image: url("http://placehold.it/25x25");
+}
+
+#right-header{
+    float: right;
+}
+
+.fb-icons{
+    float: left;
+    color: #fff;
+    font-size: 12px;
+    line-height: 30px;
+    height: 24px;
+
+    margin-left: 10px;
+}
+
+
+#header-arrow{
+    float: right;
+    margin-top: 12px;
+    height: 10px;
+    width: 15px;
+    background-position: 0px 57px;
+    background-image: url('https://www.facebook.com/rsrc.php/v3/yu/r/UnZEsNz1oHl.png')
+}
+
+
+#home-updates .new-feeds{
+    background: rgba(0,0,0,.25);
+    border-radius: 2px;
+    font-size: 10px;
+}
+
+#content{
+    /* Must have overflow: hidden so that the floated children pass their height up */
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#left{
+    width: 20%;
+    float: left;
+    margin-left: 15px;
+}
+#middle{
+    width: 50%;
+    float: left;
+    border-left: 1px #cacaca solid;
+    border-right: 1px #cacaca solid;
+}
+#right{
+    width: 25%;
+    float: right;
+}
+
+.left-profile .left-profile-name{
+    vertical-align: top;
+}
+
+.left-profile-name{
+    margin-top: 20px;
+}
+
+.favorites-header{
+    margin-left: 10px;
+}
+
+.favorites-item{
+    margin-left: 15px;
+}
+
+.status-header .status-item{
+    float: left;
+    margin-left: 10px;
+}
+
+.status-wrapper input{
+    width: 100%;
+}
+
+.status-header{
+    border-bottom: 1px #cacaca solid;
+}
+
+.favorites-section{
+    list-style: none;
+}
