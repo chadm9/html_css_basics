@@ -1,5 +1,6 @@
 #facebook-wrapper{
     /* Main page styles here */
+    font-family: Arial;
 }
 
 #header{
@@ -116,42 +117,103 @@
     width: 50%;
     float: left;
     border-left: 1px #cacaca solid;
-    border-right: 1px #cacaca solid;
+
 }
 #right{
     width: 25%;
     float: right;
+
 }
 
-.left-profile .left-profile-name{
-    vertical-align: top;
+#left-profile-image{
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
-.left-profile-name{
+#left-profile-name{
+    display: inline-block;
     margin-top: 20px;
+    vertical-align: top;
+    margin-left: 10px;
+    color: #272727;
 }
 
 .favorites-header{
     margin-left: 10px;
+    margin-bottom: 5px;
 }
 
 .favorites-item{
     margin-left: 15px;
+    font-size: 15px;
+    margin-bottom: 5px;
+
 }
 
 .status-header .status-item{
     float: left;
     margin-left: 10px;
+    color: #272727;
+    font-size: 15px;
 }
 
 .status-wrapper input{
     width: 100%;
+    margin-left: 10px;
 }
 
 .status-header{
-    border-bottom: 1px #cacaca solid;
+/*    border-bottom: 1px #cacaca solid;  */
 }
 
 .favorites-section{
     list-style: none;
+    margin-bottom: 20px;
+    color: #272727;
 }
+
+.favorites-section img{
+    float: left;
+    margin-right: 3px
+}
+
+.status-header img{
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
+
+.center-posts{
+    margin-top: 15px;
+    color: #272727;
+}
+
+.center-poster-image{
+    display: inline-block;
+    margin: 5px;
+}
+
+.center-poster-name{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+}
+
+.center-post img{
+    margin-left: 50px;
+}
+
+.post-options{
+    display: inline-block;
+    border-bottom: 2px;
+    margin-right: 1px;
+    margin-left: 50px;
+}
+
+
+.post{
+    margin-bottom: 23px;
+    border-top: #cacaca 1px solid;
+    padding-top: 11px;
+}
+
