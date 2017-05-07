@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube-clone</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style type="text/css" media="">
+
+        .logo{
+            max-width: 100%;
+            max-height: 100%;
+            text-align: center;
+        }
+
+        .middle{
+            /*text-align: center;*/
+            padding-top: 70px;
+        }
+
+        .form-inline .form-control{
+            width: 75%;
+        }
+
+        .form-inline{
+            text-align: center;
+        }
+        .list-inline{
+            padding-top: 10px;
+            padding-left: 95px;
+        }
+        .middle-video{
+            border-right: 1px solid black;
+            border-left: 1px solid black;
+        }
+        .header-options{
+            float: right;
+            padding-top: 50px;
+
+        }
+
+        .header-options-2{
+            float: right;
+            padding: 0px;
+            margin-left: 0;
+            padding-right: 0;
+            padding-top: 27px;
+
+        }
+
+        .accounts{
+            padding-top: 20px;
+            padding-left: 0;
+            padding-right: 0;
+
+        }
+
+
+        #last{
+            padding-right: 0;
+        }
+
+        .header{
+            border-bottom: 1px black solid;
+        }
+
+        .middle-left{
+            background-color: #888888;
+            padding-bottom: 10px;
+        }
+
+        #featured-pic{
+            padding-bottom: 10px;
+        }
+        .featured-secondary-pics{
+            padding-top: 3px;
+        }
+
+        #featured-secondary-pic-container{
+            padding-top: 26px;
+        }
+
+        #secondary-description-container{
+            padding-top: 48px;
+        }
+
+        .secondary-description{
+            padding-bottom: 35px;
+        }
+        .add-text{
+            text-align: justify;
+
+        }
+        .middle-right{
+            padding-right: 0px;
+            padding-left: 15px;
+        }
+
+        #ad{
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="col-md-12 header">
+            <div class="col-md-3 logo">
+                <img class="logo" src="https://www.youtube.com/yt/brand/media/image/YouTube-logo-full_color.png" />
+                <p>Broadcast Yourself!</p>
+            </div>
+
+
+
+            <div class="col-md-6 middle">
+                <form class="form-inline">
+                    <input type="text" class="form-control" />
+                    <button type="submit" class="btn btn-default">Sign in</button>
+                </form>
+                <ul class="list-inline">
+                    <li>Home</li>
+                    <li class="middle-video"><u>Videos</u></li>
+                    <li><u>Channels</u></li>
+                </ul>
+
+            </div>
+
+
+            <div class="col-md-3 accounts">
+                <div class="header-options">
+                    <a href="http://google.com">Create Account </a>
+                    or
+                    <a href="http://google.com">Sign-In</a>
+                </div>
+                <ul class="list-inline header-options-2">
+                    <li>Subscriptions</li>
+                    <li>History</li>
+                    <li id="last">Upload</li>
+                </ul>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="col-md-12 middle">
+            <div class="col-md-9 middle-left">
+                <div class="col-md-7">
+                    <p>Featured</p>
+                    <img id="featured-pic" src="http://placehold.it/300x300">
+
+                </div>
+                <div class="col-md-2" id="featured-secondary-pic-container">
+                    <div class="row featured-secondary-pics"><img src="http://placehold.it/100x100"></div>
+                    <div class="row featured-secondary-pics"><img src="http://placehold.it/100x100"></div>
+                    <div class="row featured-secondary-pics"><img src="http://placehold.it/100x100"></div>
+                </div>
+
+                <div class="col-md-3" id="secondary-description-container">
+                    <div class="row secondary-description">
+                        <p>This land is your land, this land is my land. From Los Angeles...</p>
+                    </div>
+                    <div class="row secondary-description">
+                        <p>This land is your land, this land is my land. From Los Angeles...</p>
+                    </div>
+                    <div class="row">
+                        <p>This land is your land, this land is my land. From Los Angeles...</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3 middle-right">
+                <img id="ad" src="http://placehold.it/225x270">
+                <p class="add-text">This land is your land, this land is my land. From Los Angeles...</p>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+</body>
+</html>
