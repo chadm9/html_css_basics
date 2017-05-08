@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube-clone</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style type="text/css" media="">
+
+        .logo{
+            max-width: 100%;
+            max-height: 100%;
+            text-align: center;
+        }
+
+        .middle{
+            /*text-align: center;*/
+            padding-top: 70px;
+        }
+
+        .form-inline .form-control{
+            width: 75%;
+        }
+
+        .form-inline{
+            text-align: center;
+        }
+        .list-inline{
+            padding-top: 10px;
+            padding-left: 95px;
+        }
+        .middle-video{
+            border-right: 1px solid black;
+            border-left: 1px solid black;
+        }
+        .header-options{
+            float: right;
+            padding-top: 50px;
+
+        }
+
+        .header-options-2{
+            float: right;
+            padding: 0px;
+            margin-left: 0;
+            padding-right: 0;
+            padding-top: 27px;
+
+        }
+
+        .accounts{
+            padding-top: 20px;
+            padding-left: 0;
+            padding-right: 0;
+
+        }
+
+
+        #last{
+            padding-right: 0;
+        }
+
+        .header{
+            border-bottom: 1px black solid;
+        }
+
+        .video-options{
+            display: inline-block;
+            padding-right: 25px;
+        }
+
+        #views{
+            float: right;
+        }
+        #view-icon{
+            padding-left: 190px;
+        }
+        #comments{
+            padding-top: 15px;
+            padding-bottom: 25px;
+        }
+
+        .user-comment{
+            padding-bottom: 20px;
+        }
+
+        .right-box{
+            border: 1px solid black;
+            margin-top: 39px;
+
+        }
+
+        #profile-pic{
+            float: left;
+            display: inline-block;
+            padding: 10px;
+        }
+
+        #profile-link{
+            display: inline-block;
+            padding-left: 5px;
+        }
+
+        #profile-summary{
+            display: inline;
+            font-size: 0.75em;
+
+        }
+
+        #subscribe{
+            display: inline;
+            float: right
+        }
+
+        #profile-paragraph{
+            display: block;
+            padding: 22px;
+            text-align: justify;
+        }
+
+        #related-videos{
+            margin-top: 10px;
+
+        }
+
+        .related-video{
+            display: inline;
+            float: left;
+            padding-right: 5px;
+            padding-bottom: 10px;
+
+        }
+        
+        .related-link{
+            display: inline;
+            float: left;
+
+        }
+
+        .right-side{
+            padding-left: 30px;
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="col-md-12 header">
+            <div class="col-md-3 logo">
+                <img class="logo" src="https://www.youtube.com/yt/brand/media/image/YouTube-logo-full_color.png" />
+                <p>Broadcast Yourself!</p>
+            </div>
+
+
+
+            <div class="col-md-6 middle">
+                <form class="form-inline">
+                    <input type="text" class="form-control" />
+                    <button type="submit" class="btn btn-default">Sign in</button>
+                </form>
+                <ul class="list-inline">
+                    <li>Home</li>
+                    <li class="middle-video"><u>Videos</u></li>
+                    <li><u>Channels</u></li>
+                </ul>
+
+            </div>
+
+
+            <div class="col-md-3 accounts">
+                <div class="header-options">
+                    <a href="http://google.com">Create Account </a>
+                    or
+                    <a href="http://google.com">Sign-In</a>
+                </div>
+                <ul class="list-inline header-options-2">
+                    <li>Subscriptions</li>
+                    <li>History</li>
+                    <li id="last">Upload</li>
+                </ul>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="col-md-12">
+            <div class="col-md-8">
+                <div class="row">
+                    <h4>Video Title</h4>
+                </div>
+                <div class="row">
+                    <img src="http://placehold.it/600x325" />
+
+                </div>
+                <div class="row">
+                    <img src="http://placehold.it/20x20" />
+                    <h5 class="video-options">Share</h5>
+                    <img src="http://placehold.it/20x20" />
+                    <h5 class="video-options">Favorite</h5>
+                    <img src="http://placehold.it/20x20" />
+                    <h5 class="video-options">Flag</h5>
+
+                    <h5 id ="views" class="video-options">232,332 views</h5>
+                    <img id="view-icon" src="http://placehold.it/20x20" />
+                </div>
+
+                <div class="row">
+                    <h4 id="comments">Comments</h4>
+                </div>
+                <div class="row">
+                    <a href="http://google.com">User 1 </a>
+                    <p class="user-comment">Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
+                </div>
+
+
+                <div class="row">
+                    <a href="http://google.com">User 2 </a>
+                    <p class="user-comment">Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 right-side">
+                <div class="row right-box">
+                    <img id="profile-pic" src="http://placehold.it/50x50" />
+                    <a id="profile-link" href="http://google.com">Profile</a>
+                    <br />
+
+                    <button type="submit" id="subscribe" class="btn btn-default">Subscribe</button>
+                    <p id="profile-summary">Lorem ipsum dolor sit amet, consecteturadipiscing elit </p>
+                    <div class="row">
+                        <p id="profile-paragraph">Lorem ipsum dolor sit amet, consectetu radipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
+
+                    </div>
+
+
+                </div>
+                <div class="row" id="related-videos">
+                    <h4>Related Videos</h4>
+                </div>
+                <div class="row">
+
+                    <img  class="related-video" src="http://placehold.it/60x60" />
+                    <a class="related-link" href="http://google.com">Profile</a>
+                    <br />
+                    <h6 class="view-number">727 views</h6>
+
+                </div>
+
+                <div class="row">
+
+                    <img  class="related-video" src="http://placehold.it/60x60" />
+                    <a class="related-link" href="http://google.com">Profile</a>
+                    <br />
+                    <h6 class="view-number">727 views</h6>
+
+                </div>
+                <div class="row">
+
+                    <img  class="related-video" src="http://placehold.it/60x60" />
+                    <a class="related-link" href="http://google.com">Profile</a>
+                    <br />
+                    <h6 class="view-number">727 views</h6>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
